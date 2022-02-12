@@ -1,0 +1,185 @@
+*{
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#foot{
+    background: rgb(249, 249, 249);
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+ #foot1{
+  width: 100%;
+  height: auto;
+ 
+  
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+ }
+ #foot-left{
+  text-align: left;
+  position: relative;
+    
+    min-height: 1px;
+    /* padding-right: 8px;
+    padding-left: 8px; */
+    line-height: 16px;
+    padding: 60px 0px 40px;
+ }
+ #foot-t1{
+  color: rgb(51, 51, 51);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  /* font-family: "Mier bold"; */
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 0.5px;
+ }
+ #foot-t2{
+  margin-top: 20px;
+  color: rgb(102, 102, 102);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0px;
+  letter-spacing: 0.5px;
+ }
+ #foot-btn{
+  display: flex;
+  width: 100%;
+  gap: 16px;
+  background: transparent;
+  border-radius: 8px;
+  margin-top: 20px;
+ }
+ #foot-btn1{
+  width: 180px;
+  height: 48px;
+ }
+ #foot-mid{
+   margin-bottom: 40px;
+   line-height: 24px;
+   padding: 60px 0px 40px;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  margin-left: 40px;
+ }
+ #foot-mid > div{
+  margin-bottom: 16px;
+  cursor: pointer;
+  display: inline-block;
+
+ }
+ a{
+   text-decoration: none;
+   background-color: transparent;
+ }
+ #car{
+  color: rgb(102, 102, 102);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  
+  margin: 0px;
+  padding: 0px;
+ }
+ #foot-mid > div {
+  
+  cursor: pointer;
+  display: inline-block;
+}
+#foot-mid > div:last-child {
+  margin-bottom: 0px;
+}
+#foot-right{
+  position: relative;
+  padding: 60px 0px 40px;
+    min-height: 1px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+#footRight{
+  display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+#foot-right1{
+  position: relative;
+  
+  min-height: 1px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+#contact-us{
+  color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0px;
+}
+#foot-right2{
+  position: relative;
+    /* width: 100%; */
+    min-height: 1px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-left: 48px;
+}
+#reach{
+  color: rgb(51, 51, 51);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+ 
+  margin: 0px;
+  padding: 0px;
+  
+}
+#reach-img{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 70%;
+}
+#right-foot-end{
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+#foot-right-end1{
+  display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(240, 240, 240);
+    padding: 10px;
+}
+#foot-right-end-icon{
+  height: 28px;
+    width: 28px;
+    cursor: inherit;
+}
+#foot-right-end-text{
+  color: rgb(102, 102, 102);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0px;
+  padding: 0px 0px 0px 10px;
+}
